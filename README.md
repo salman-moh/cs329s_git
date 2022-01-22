@@ -1,3 +1,6 @@
+# Application that takes a hand written digit and replies with the digit written. (Serverlessly)
+
+
 ### 1. Write App (Flask, TensorFlow)
 - The code to build, train, and save the model is in the `test` folder.
 - Implement the app in `main.py`
@@ -20,7 +23,4 @@ gcloud run deploy --image gcr.io/cs329s-339009/index --platform managed
 ### Test
 - Test the code with `test/test.py`
 
-### Watch the video tutorial
-- How To Deploy ML Models With Google Cloud Run
-
-[![Alt text](https://img.youtube.com/vi/vieoHqt7pxo/hqdefault.jpg)](https://youtu.be/vieoHqt7pxo)
+credit : https://youtu.be/vieoHqt7pxo
